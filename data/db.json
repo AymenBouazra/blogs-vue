@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, tenetur ratione quae aliquam earum nostrum tempora illum distinctio nemo cupiditate ipsum id vitae animi iste. Quasi odit optio illum non commodi doloremque, nostrum magnam saepe id in fuga? Quae iusto adipisci dolorem fuga tenetur consequuntur porro rerum, enim eveniet vitae quibusdam ipsum unde saepe, deserunt doloremque harum velit, corrupti soluta. Neque, nemo suscipit, obcaecati dolorum exercitationem laborum, pariatur voluptatum vero amet facere odio libero alias. Est fuga porro repellat corrupti, ipsum at voluptate placeat quae similique id nemo magni distinctio. Aspernatur voluptates voluptatibus illo commodi necessitatibus enim recusandae qui quaerat voluptas facilis, molestias doloremque dignissimos animi ipsa ratione non temporibus iusto ex aliquam? Officia repudiandae, accusantium delectus eum voluptatibus quae sequi ad inventore alias architecto, laboriosam ipsum. Officia ducimus eos animi modi perspiciatis voluptatem tempora ut et recusandae doloribus? Doloremque a maiores deserunt doloribus itaque cupiditate, explicabo omnis magni sequi harum eaque eum assumenda fuga dolorem ipsa dicta, accusamus perferendis et rem, alias quibusdam! Error harum repellendus ex eligendi provident consequuntur reiciendis voluptas doloribus ipsum quae! Eaque et quisquam quo tempore ipsum excepturi libero repellat, id debitis laborum, exercitationem reiciendis quam nemo porro minima, repellendus suscipit ea nesciunt voluptate nobis.",
+      "id": 1,
+      "tags": [
+        "webdev",
+        "html",
+        "news"
+      ]
+    },
+    {
+      "title": "top 5 css tips",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, tenetur ratione quae aliquam earum nostrum tempora illum distinctio nemo cup id itate ipsum id vitae animi iste. Quasi odit optio illum non commodi doloremque, nostrum magnam saepe id in fuga? Quae iusto adipisci dolorem fuga tenetur consequuntur porro rerum, enim eveniet vitae quibusdam ipsum unde saepe, deserunt doloremque harum velit, corrupti soluta. Neque, nemo suscipit, obcaecati dolorum exercitationem laborum, pariatur voluptatum vero amet facere odio libero alias. Est fuga porro repellat corrupti, ipsum at voluptate placeat quae similique id nemo magni distinctio. Aspernatur voluptates voluptatibus illo commodi necessitatibus enim recusandae qui quaerat voluptas facilis, molestias doloremque dignissimos animi ipsa ratione non temporibus iusto ex aliquam? Officia repudiandae, accusantium delectus eum voluptatibus quae sequi ad inventore alias architecto, laboriosam ipsum. Officia ducimus eos animi modi perspiciatis voluptatem tempora ut et recusandae doloribus? Doloremque a maiores deserunt doloribus itaque cupiditate, explicabo omnis magni sequi harum eaque eum assumenda fuga dolorem ipsa dicta, accusamus perferendis et rem, alias quibusdam! Error harum repellendus ex eligendi provident consequuntur reiciendis voluptas doloribus ipsum quae! Eaque et quisquam quo tempore ipsum excepturi libero repellat, id debitis laborum, exercitationem reiciendis quam nemo porro minima, repellendus suscipit ea nesciunt voluptate nobis.",
+      "id": 2,
+      "tags": [
+        "css",
+        "html",
+        "coding"
+      ]
+    },
+    {
+      "title": "qsddqs",
+      "body": "qdsdqs",
+      "tags": [
+        "qqq",
+        "qsdqsd",
+        "dsqsd"
+      ],
+      "id": 3
+    }
+  ]
+}
