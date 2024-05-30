@@ -1,8 +1,9 @@
 <template>
-    <router-link :to="{name:'AddPost'}" class="add">Add post</router-link>
-    <div class="post-list">
-        <div v-for="post in posts" :key="post.id">
-           <SinglePost :post="post" />
+    <div>
+        <div class="post-list">
+            <div v-for="post in posts" :key="post.id">
+            <SinglePost :post="post" />
+            </div>
         </div>
     </div>
 </template>

@@ -6,7 +6,7 @@
         <label for="title">Body:</label>
         <textarea type="text" v-model="body"></textarea>
         <label for="title">Tags: <button class="tag" @click="addTag">Add tag</button></label>
-        <div v-for="(tag, index) in tags" >
+        <div v-for="(tag, index) in tags" :key="tag" >
             <span>{{ index + 1 }} </span><input type="text" @change="handleChange($event,index)" >
         </div>
         <button @click="handleSubmit" class="submit">Submit</button>
@@ -14,6 +14,7 @@
 </template>
 <script>
 import {ref} from 'vue'
+import {useRouter} from 'vue-router'
 import addPost from '@/composables/addPost';
 export default {
     setup(){
@@ -21,6 +22,8 @@ export default {
         const body = ref('')
         const tags = ref([])
         const error = ref(null)
+        const router = useRouter()
+        console.log(router);
         const addTag = () => {
             tags.value.push('')
         }
@@ -33,8 +36,12 @@ export default {
                 return
             }
             const { err } = addPost({title:title.value, body:body.value, tags: tags.value})
-
-            error.value = err
+            if (err) {
+                error.value = err
+            return
+            }
+            router.push('/')
+            
         }
         return {title, body, tags, error, handleSubmit, handleChange, addTag}
     }

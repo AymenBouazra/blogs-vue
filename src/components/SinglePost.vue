@@ -4,7 +4,7 @@
             <h3>{{ post.title }}</h3>
         </router-link>
         <p>{{ snippet }}</p>
-        <span class="pre" v-for="tag in post.tags" :key="tag"> #{{ tag }} </span>
+        <span v-for="tag in post.tags" :key="tag" ><router-link class="pre" :to="{name:'Tag',params:{tag:tag}}">#{{ tag }}</router-link></span>
     </div>
 </template>
 <script>
@@ -39,7 +39,8 @@ export default {
     }
     .pre{
         white-space: pre-wrap;
-        color: #444;
+        color: #444!important;
+        font-size: 16px !important;
         background-color: #eee;
         padding: 10px;
         border-radius: 4px;
